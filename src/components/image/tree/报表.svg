@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="FMEA" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="iocn" transform="translate(-434.000000, -67.000000)"  fill-rule="nonzero">
+            <g id="business-16-px-calculator" transform="translate(435.000000, 68.000000)">
+                <path d="M13,0 L1,0 C0.4,0 0,0.35 0,0.875 L0,13.125 C0,13.65 0.4,14 1,14 L13,14 C13.6,14 14,13.65 14,13.125 L14,0.875 C14,0.35 13.6,0 13,0 Z M4,12 L2,12 L2,10 L4,10 L4,12 Z M4,8 L2,8 L2,6 L4,6 L4,8 Z M8,12 L6,12 L6,10 L8,10 L8,12 Z M8,8 L6,8 L6,6 L8,6 L8,8 Z M12,12 L10,12 L10,10 L12,10 L12,12 Z M12,8 L10,8 L10,6 L12,6 L12,8 Z M12,4 L2,4 L2,2 L12,2 L12,4 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

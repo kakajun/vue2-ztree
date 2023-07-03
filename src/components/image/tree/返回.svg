@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="FMEA" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="iocn" transform="translate(-14.000000, -65.000000)"  fill-rule="nonzero">
+            <path d="M24,71.4 L18.4,71.4 L22.4,67.4 L21,66 L15.3,71.7 C14.9,72.1 14.9,72.7 15.3,73.1 L21,78.8 L22.4,77.4 L18.4,73.4 L24,73.4 C26.2,73.4 28,75.2 28,77.4 L28,80.4 L30,80.4 L30,77.4 C30,74.1 27.3,71.4 24,71.4 Z" id="路径"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g transform="translate(-137.000000, -433.000000)" fill="#1C1D21" fill-rule="nonzero">
+            <g transform="translate(110.000000, 171.000000)">
+                <g transform="translate(27.000000, 235.000000)">
+                    <g transform="translate(0.000000, 21.000000)">
+                        <g id="fill-2" transform="translate(0.000000, 6.000000)">
+                            <path d="M12.48,0 C12.767625,0 13,0.232375 13,0.52 L13,0.52 L13,12.48 C13,12.767625 12.767625,13 12.48,13 L12.48,13 L0.52,13 C0.232375,13 0,12.767625 0,12.48 L0,12.48 L0,0.52 C0,0.232375 0.232375,0 0.52,0 L0.52,0 Z M11,2 L2,2 L2,11 L11,11 L11,2 Z M8.89583333,6 C8.953125,6 9,6.05625 9,6.125 L9,6.125 L9,6.875 C9,6.94375 8.953125,7 8.89583333,7 L8.89583333,7 L4.10416667,7 C4.046875,7 4,6.94375 4,6.875 L4,6.875 L4,6.125 C4,6.05625 4.046875,6 4.10416667,6 L4.10416667,6 Z" id="fill"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

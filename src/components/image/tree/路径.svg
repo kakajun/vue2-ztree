@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="FMEA" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="iocn" transform="translate(-434.000000, -67.000000)"  fill-rule="nonzero">
+            <path d="M449,67 L435,67 C434.447,67 434,67.448 434,68 L434,82 C434,82.552 434.447,83 435,83 L449,83 C449.553,83 450,82.552 450,82 L450,68 C450,67.448 449.553,67 449,67 Z M446,76 L443,76 L443,79 L441,79 L441,76 L438,76 L438,74 L441,74 L441,71 L443,71 L443,74 L446,74 L446,76 Z" id="形状"></path>
+        </g>
+    </g>
+</svg>

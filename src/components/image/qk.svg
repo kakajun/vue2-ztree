@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    
+    <desc>Created with Sketch.</desc>
+    <g id="标注" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="FMEA-分屏-右结构-直角" transform="translate(-1819.000000, -71.000000)" fill="#47A085">
+            <g id="tab" transform="translate(61.000000, 60.000000)">
+                <g id="Period-Selector" transform="translate(1.000000, 4.000000)">
+                    <g id="编组-2" transform="translate(1675.000000, 0.000000)">
+                        <path d="M97,7 L83,7 C82.448,7 82,7.448 82,8 L82,20 C82,20.553 82.448,21 83,21 L97,21 C97.552,21 98,20.553 98,20 L98,8 C98,7.448 97.552,7 97,7 Z M96,19 L84,19 L84,9 L96,9 L96,19 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

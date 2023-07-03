@@ -1,0 +1,403 @@
+.ztree .sysNode .sysIcon_ico_close,
+.ztree .sysNode .sysIcon_ico_open,
+.ztree .sysNode .sysIcon_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  background-image: url('./image/tree/l-y.svg');
+  background-position: center !important;
+}
+.ztree .sysNode .sysIcon_ico_isTransmit {
+  width: 16px !important;
+  height: 16px !important;
+
+  margin-top: 2px;
+  background-image: url('./image/tree/transmit.svg');
+  background-position: center !important;
+}
+
+.ztree .sysNode .sysIcon_ico_process {
+  width: 16px !important;
+  height: 16px !important;
+  margin-top: 3px;
+  background-image: url('./image/tree/process.svg') !important;
+  background-size: cover;
+}
+.ztree .sysNode .curSelectedNode {
+  .sysIcon_ico_process {
+    background-image: url('./image/tree/process_active.svg') !important;
+  }
+  .sysIcon_ico_product {
+    background-image: url('./image/tree/product_active.svg') !important;
+  }
+}
+
+.ztree .sysNode .sysIcon_ico_product {
+  width: 16px !important;
+  height: 16px !important;
+  margin-top: 3px;
+  background-image: url('./image/tree/product.svg') !important;
+  background-size: cover;
+}
+
+.ztree .sysNode .fmeaShare_ico_close,
+.ztree .sysNode .fmeaShare_ico_open,
+.ztree .sysNode .fmeaShare_ico_docu {
+  display: inline-block;
+  width: 18px !important;
+  height: 18px !important;
+  color: #164e88;
+  background-image: url('./image/fmeasharelogo.svg');
+  background-position: center !important;
+}
+.ztree .sysNode .treelock_ico_close,
+.ztree .sysNode .treelock_ico_open,
+.ztree .sysNode .treelock_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: -1px;
+  background: url('./image/s.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .funcNode .funcIcon-0_ico_close,
+.ztree .funcNode .funcIcon-0_ico_open,
+.ztree .funcNode .funcIcon-0_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/k-l.svg') center;
+  background: url('./image/k-l.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .funcNode .funcIcon-1_ico_close,
+.ztree .funcNode .funcIcon-1_ico_open,
+.ztree .funcNode .funcIcon-1_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/tree/lv-s.svg') center;
+  background-repeat: no-repeat !important;
+  fill: #3ec66d;
+}
+
+.ztree .funcNode .funcIcon-2_ico_close,
+.ztree .funcNode .funcIcon-2_ico_open,
+.ztree .funcNode .funcIcon-2_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/tree/lv-x.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .funcNode .funcIcon-3_ico_close,
+.ztree .funcNode .funcIcon-3_ico_open,
+.ztree .funcNode .funcIcon-3_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/tree/q-l.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .charIcon-0_ico_close,
+.ztree .charIcon-0_ico_open,
+.ztree .charIcon-0_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/char-h.svg') center !important;
+  background-repeat: no-repeat !important;
+}
+.ztree .charIcon-1_ico_close,
+.ztree .charIcon-1_ico_open,
+.ztree .charIcon-1_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/char-x.svg') center !important;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .charIcon-2_ico_close,
+.ztree .charIcon-2_ico_open,
+.ztree .charIcon-2_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/char-s.svg') center !important;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .charIcon-3_ico_close,
+.ztree .charIcon-3_ico_open,
+.ztree .charIcon-3_ico_docu {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/char-q.svg') center !important;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .tree_lock_ico {
+  width: 18px !important;
+  height: 18px !important;
+  padding-left: 5px;
+  background: url('./image/failChar.svg') center !important;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .button.treelock {
+  width: 18px !important;
+  height: 18px !important;
+  background: url('./image/s.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .disableNode .disable-0_ico_docu,
+.ztree .disableNode .disable-0_ico_open,
+.ztree .disableNode .disable-0_ico_close {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/k-h.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .disableNode .disable-1_ico_docu,
+.ztree .disableNode .disable-1_ico_open,
+.ztree .disableNode .disable-1_ico_close {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/tree/h-s.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .disableNode .disable-2_ico_docu,
+.ztree .disableNode .disable-2_ico_open,
+.ztree .disableNode .disable-2_ico_close {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/tree/h-x.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .disableNode .disable-3_ico_docu,
+.ztree .disableNode .disable-3_ico_open,
+.ztree .disableNode .disable-3_ico_close {
+  width: 18px !important;
+  height: 18px !important;
+  margin-top: 1px;
+  background: url('./image/tree/q-h.svg') center;
+  background-repeat: no-repeat !important;
+}
+
+.disableTitle {
+  padding: 1px 3px;
+  color: #f55e5e;
+  border-radius: 3px;
+  & + .tree_relation {
+    background-color: #f55e5e !important;
+  }
+}
+.funcTitle {
+  padding: 1px 3px;
+  color: #3ec66d;
+  border-radius: 3px;
+  & + .tree_relation {
+    background-color: #3ec66d !important;
+  }
+}
+.char {
+  color: #32afea;
+}
+.charTitle {
+  padding: 1px 3px;
+  color: #32afea;
+  border-radius: 3px;
+  & + .tree_relation {
+    background-color: #32afea !important;
+  }
+}
+.sysTitle {
+  padding: 1px 3px;
+  color: #1c1d21;
+  border-radius: 3px;
+}
+
+.roots_open,
+.root_open,
+.center_open,
+.bottom_open,
+.noline_open {
+  width: 13px !important;
+  height: 13px !important;
+  background: url('./image/icon-assembling-entry-minus.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.roots_open,
+.root_open,
+.center_open,
+.bottom_open,
+.noline_docu {
+    width: 13px !important;
+  height: 13px !important;
+  background: url('./image/icon-assembling-entry-empty.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.ico_docu{
+  display:hidden ;
+}
+
+.file_open {
+  width: 18px !important;
+  height: 18px !important;
+  background: url('./image/folder-open.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.roots_close,
+.root_close,
+.center_close,
+.bottom_close,
+.noline_close {
+  width: 13px !important;
+  height: 13px !important;
+  background: url('./image/tree/icon-assembling-entry-plus.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+}
+.file_close {
+  width: 18px !important;
+  height: 18px !important;
+  background: url('./image/folder-open.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.mySeIcon {
+  float: left;
+  width: 15%;
+  width: 18px !important;
+  height: 18px !important;
+  background-image: url('./image/tree/l-y.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFuncIcon-0 {
+  float: left;
+  width: 15%;
+  height: 16px !important;
+  background-image: url('./image/k-l.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFuncIcon-1 {
+  float: left;
+  width: 15%;
+  height: 16px !important;
+  background-image: url('./image/lv-s.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFuncIcon-2 {
+  float: left;
+  width: 15%;
+  height: 16px !important;
+  background-image: url('./image/lv-x.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFuncIcon-3 {
+  float: left;
+  width: 15%;
+  height: 16px !important;
+  background-image: url('./image/q-l.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFailIcon-0 {
+  float: left;
+  width: 15%;
+  height: 20px !important;
+  background-image: url('./image/k-h.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFailIcon-1 {
+  float: left;
+  width: 15%;
+  height: 20px !important;
+  background-image: url('./image/h-s.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFailIcon-2 {
+  float: left;
+  width: 15%;
+  height: 20px !important;
+  background-image: url('./image/h-x.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myFailIcon-3 {
+  float: left;
+  width: 15%;
+  height: 20px !important;
+  background-image: url('./image/q-h.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myParentIcon {
+  width: 16px !important;
+  height: 20px !important;
+  background-image: url('./image/father.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.myChildIcon {
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url('./image/children.svg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.ztree .tree_relation {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding-left: 5px;
+  margin-top: 2px;
+  color: #fff;
+  vertical-align: top;
+  background: #164e88
+    url('./image/tree/relation.svg') center center no-repeat;
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  border-radius: 3px;
+}
+
+.ztree li a:hover {
+  background: #fff;
+  .node_name {
+    background: #ecf0f1;
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="质量策划" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="iocn" transform="translate(-88.000000, -4.000000)" fill="#3EC66D">
+            <path d="M100,7 C101.104569,7 102,7.8954305 102,9 L102,15 C102,16.1045695 101.104569,17 100,17 L92,17 C90.8954305,17 90,16.1045695 90,15 L90,9 C90,7.8954305 90.8954305,7 92,7 L100,7 Z M98,9 L94,9 C92.8954305,9 92,9.8954305 92,11 C92,12.1045695 92.8954305,13 94,13 L94,13 L98,13 C99.1045695,13 100,12.1045695 100,11 C100,9.8954305 99.1045695,9 98,9 L98,9 Z" id="形状结合"></path>
+        </g>
+    </g>
+</svg>

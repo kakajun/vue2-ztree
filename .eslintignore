@@ -1,0 +1,7 @@
+build/*.js
+src/assets
+src/components/js
+# src/components/FMEA
+public
+dist
+go.js

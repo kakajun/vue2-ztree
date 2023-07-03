@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="FMEA" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="iocn" transform="translate(-579.000000, -67.000000)"  fill-rule="nonzero">
+            <path d="M590,71 C590.6,71 591,71.4 591,72 L591,72 L591,82 C591,82.6 590.6,83 590,83 L590,83 L582,83 C581.4,83 581,82.6 581,82 L581,82 L581,72 C581,71.4 581.4,71 582,71 L582,71 Z M594,67 C594.6,67 595,67.4 595,68 L595,68 L595,80 L593,80 L593,69 L584,69 L584,67 Z" id="形状结合"></path>
+        </g>
+    </g>
+</svg>
