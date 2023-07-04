@@ -1,11 +1,11 @@
 <template>
   <div id="app" class="flex-col">
     <h1 class="T">
-      Vue-Giant-Tree
+      vue2-ztree
       <a
-        href="https://github.com/tower1229/Vue-Giant-Tree"
+        href="https://github.com/tower1229/vue2-ztree"
         target="_blank"
-        titie="Vue-Giant-Tree"
+        titie="vue2-ztree"
       >
         <svg
           class="octicon octicon-mark-github v-align-middle"
@@ -51,12 +51,12 @@
 <script>
 const bigData = require("@/mock/big-tree.json");
 const simpleData = [
-  { id: 1, pid: 0, name: "随意勾选 1", open: true },
-  { id: 11, pid: 1, name: "随意勾选 1-1", open: true },
-  { id: 111, pid: 11, name: "随意勾选 1-1-1" },
-  { id: 112, pid: 11, name: "随意勾选 1-1-2" },
-  { id: 12, pid: 1, name: "随意勾选 1-2", open: true },
-  { id: 121, pid: 12, name: "随意勾选 1-2-1" },
+  { id: 1, pid: 0, name: "随意勾选 1", open: true, iconSkin:"pIcon01" },
+  { id: 11, pid: 1, name: "随意勾选 1-1", open: true, iconSkin:"pIcon02"},
+  { id: 111, pid: 11, name: "随意勾选 1-1-1" , iconSkin:"icon03"},
+  { id: 112, pid: 11, name: "随意勾选 1-1-2" , iconSkin:"icon04"},
+  { id: 12, pid: 1, name: "随意勾选 1-2", open: true, iconSkin:"icon05" },
+  { id: 121, pid: 12, name: "随意勾选 1-2-1" , iconSkin:"icon06"},
   { id: 122, pid: 12, name: "随意勾选 1-2-2" },
   { id: 2, pid: 0, name: "随意勾选 2", checked: true, open: true },
   { id: 21, pid: 2, name: "随意勾选 2-1" },
@@ -66,11 +66,11 @@ const simpleData = [
   { id: 23, pid: 2, name: "随意勾选 2-3" }
 ];
 const dataQueue = [bigData.data, simpleData];
-
+import tree from './components/ztree.vue';
 export default {
   name: "app",
   components: {
-    tree: resolve => require(["./components/ztree.vue"], resolve)
+    tree 
   },
   data() {
     return {
@@ -89,8 +89,8 @@ export default {
         view: {
           showLine: false,
           showIcon: true,
-          // addHoverDom: this.addHoverDom,
-          // removeHoverDom: this.removeHoverDom,
+          addHoverDom: this.addHoverDom,
+          removeHoverDom: this.removeHoverDom,
         }
       }
     };
@@ -149,7 +149,17 @@ export default {
   }
 };
 </script>
-
+<style type="text/css">
+.ztree li span.button.pIcon01_ico_open{margin-right:2px; background: url(./components/img/diy/1_open.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.pIcon01_ico_close{margin-right:2px; background: url(./components/img/diy/1_close.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.pIcon02_ico_open, .ztree li span.button.pIcon02_ico_close{margin-right:2px; background: url(./components/img/diy/2.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.icon01_ico_docu{margin-right:2px; background: url(./components/img/diy/3.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.icon02_ico_docu{margin-right:2px; background: url(./components/img/diy/4.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.icon03_ico_docu{margin-right:2px; background: url(./components/img/diy/5.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.icon04_ico_docu{margin-right:2px; background: url(./components/img/diy/6.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.icon05_ico_docu{margin-right:2px; background: url(./components/img/diy/7.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztree li span.button.icon06_ico_docu{margin-right:2px; background: url(./components/img/diy/8.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	</style>
 <style>
 html,body{height: 100%;}
 body {

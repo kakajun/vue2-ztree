@@ -3,7 +3,7 @@
 .ztree .sysNode .sysIcon_ico_docu {
   width: 18px !important;
   height: 18px !important;
-  background-image: url('./image/tree/l-y.svg');
+  background-image: url("./image/tree/l-y.svg");
   background-position: center !important;
 }
 .ztree .sysNode .sysIcon_ico_isTransmit {
@@ -11,7 +11,7 @@
   height: 16px !important;
 
   margin-top: 2px;
-  background-image: url('./image/tree/transmit.svg');
+  background-image: url("./image/tree/transmit.svg");
   background-position: center !important;
 }
 
@@ -19,15 +19,15 @@
   width: 16px !important;
   height: 16px !important;
   margin-top: 3px;
-  background-image: url('./image/tree/process.svg') !important;
+  background-image: url("./image/tree/process.svg") !important;
   background-size: cover;
 }
 .ztree .sysNode .curSelectedNode {
   .sysIcon_ico_process {
-    background-image: url('./image/tree/process_active.svg') !important;
+    background-image: url("./image/tree/process_active.svg") !important;
   }
   .sysIcon_ico_product {
-    background-image: url('./image/tree/product_active.svg') !important;
+    background-image: url("./image/tree/product_active.svg") !important;
   }
 }
 
@@ -35,7 +35,7 @@
   width: 16px !important;
   height: 16px !important;
   margin-top: 3px;
-  background-image: url('./image/tree/product.svg') !important;
+  background-image: url("./image/tree/product.svg") !important;
   background-size: cover;
 }
 
@@ -46,7 +46,7 @@
   width: 18px !important;
   height: 18px !important;
   color: #164e88;
-  background-image: url('./image/fmeasharelogo.svg');
+  background-image: url("./image/fmeasharelogo.svg");
   background-position: center !important;
 }
 .ztree .sysNode .treelock_ico_close,
@@ -55,7 +55,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: -1px;
-  background: url('./image/s.svg') center;
+  background: url("./image/s.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -65,8 +65,8 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/k-l.svg') center;
-  background: url('./image/k-l.svg') center;
+  background: url("./image/k-l.svg") center;
+  background: url("./image/k-l.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -76,7 +76,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/tree/lv-s.svg') center;
+  background: url("./image/tree/lv-s.svg") center;
   background-repeat: no-repeat !important;
   fill: #3ec66d;
 }
@@ -87,7 +87,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/tree/lv-x.svg') center;
+  background: url("./image/tree/lv-x.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -97,7 +97,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/tree/q-l.svg') center;
+  background: url("./image/tree/q-l.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -107,7 +107,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/char-h.svg') center !important;
+  background: url("./image/char-h.svg") center !important;
   background-repeat: no-repeat !important;
 }
 .ztree .charIcon-1_ico_close,
@@ -116,7 +116,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/char-x.svg') center !important;
+  background: url("./image/char-x.svg") center !important;
   background-repeat: no-repeat !important;
 }
 
@@ -126,7 +126,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/char-s.svg') center !important;
+  background: url("./image/char-s.svg") center !important;
   background-repeat: no-repeat !important;
 }
 
@@ -136,7 +136,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/char-q.svg') center !important;
+  background: url("./image/char-q.svg") center !important;
   background-repeat: no-repeat !important;
 }
 
@@ -144,14 +144,14 @@
   width: 18px !important;
   height: 18px !important;
   padding-left: 5px;
-  background: url('./image/failChar.svg') center !important;
+  background: url("./image/failChar.svg") center !important;
   background-repeat: no-repeat !important;
 }
 
 .ztree .button.treelock {
   width: 18px !important;
   height: 18px !important;
-  background: url('./image/s.svg') center;
+  background: url("./image/s.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -161,7 +161,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/k-h.svg') center;
+  background: url("./image/k-h.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -171,7 +171,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/tree/h-s.svg') center;
+  background: url("./image/tree/h-s.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -181,7 +181,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/tree/h-x.svg') center;
+  background: url("./image/tree/h-x.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -191,7 +191,7 @@
   width: 18px !important;
   height: 18px !important;
   margin-top: 1px;
-  background: url('./image/tree/q-h.svg') center;
+  background: url("./image/tree/q-h.svg") center;
   background-repeat: no-repeat !important;
 }
 
@@ -235,7 +235,7 @@
 .noline_open {
   width: 13px !important;
   height: 13px !important;
-  background: url('./image/icon-assembling-entry-minus.svg') !important;
+  background: url("./img/fill-minus.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -244,20 +244,20 @@
 .center_open,
 .bottom_open,
 .noline_docu {
-    width: 13px !important;
+  width: 13px !important;
   height: 13px !important;
-  background: url('./image/icon-assembling-entry-empty.svg') !important;
+  background: url("./img/fill-empty.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-.ico_docu{
-  display:hidden ;
+.ico_docu {
+  display: hidden;
 }
 
 .file_open {
   width: 18px !important;
   height: 18px !important;
-  background: url('./image/folder-open.svg') !important;
+  background: url("./image/folder-open.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -269,15 +269,14 @@
 .noline_close {
   width: 13px !important;
   height: 13px !important;
-  background: url('./image/tree/icon-assembling-entry-plus.svg') !important;
+  background: url("./img/fill-plus.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-
 }
 .file_close {
   width: 18px !important;
   height: 18px !important;
-  background: url('./image/folder-open.svg') !important;
+  background: url("./image/folder-open.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -287,7 +286,7 @@
   width: 15%;
   width: 18px !important;
   height: 18px !important;
-  background-image: url('./image/tree/l-y.svg');
+  background-image: url("./image/tree/l-y.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -296,7 +295,7 @@
   float: left;
   width: 15%;
   height: 16px !important;
-  background-image: url('./image/k-l.svg');
+  background-image: url("./image/k-l.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -305,7 +304,7 @@
   float: left;
   width: 15%;
   height: 16px !important;
-  background-image: url('./image/lv-s.svg');
+  background-image: url("./image/lv-s.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -314,7 +313,7 @@
   float: left;
   width: 15%;
   height: 16px !important;
-  background-image: url('./image/lv-x.svg');
+  background-image: url("./image/lv-x.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -323,7 +322,7 @@
   float: left;
   width: 15%;
   height: 16px !important;
-  background-image: url('./image/q-l.svg');
+  background-image: url("./image/q-l.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -332,7 +331,7 @@
   float: left;
   width: 15%;
   height: 20px !important;
-  background-image: url('./image/k-h.svg');
+  background-image: url("./image/k-h.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -341,7 +340,7 @@
   float: left;
   width: 15%;
   height: 20px !important;
-  background-image: url('./image/h-s.svg');
+  background-image: url("./image/h-s.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -350,7 +349,7 @@
   float: left;
   width: 15%;
   height: 20px !important;
-  background-image: url('./image/h-x.svg');
+  background-image: url("./image/h-x.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -359,7 +358,7 @@
   float: left;
   width: 15%;
   height: 20px !important;
-  background-image: url('./image/q-h.svg');
+  background-image: url("./image/q-h.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -367,7 +366,7 @@
 .myParentIcon {
   width: 16px !important;
   height: 20px !important;
-  background-image: url('./image/father.svg');
+  background-image: url("./image/father.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -375,7 +374,7 @@
 .myChildIcon {
   width: 16px !important;
   height: 16px !important;
-  background-image: url('./image/children.svg');
+  background-image: url("./image/children.svg");
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -388,8 +387,7 @@
   margin-top: 2px;
   color: #fff;
   vertical-align: top;
-  background: #164e88
-    url('./image/tree/relation.svg') center center no-repeat;
+  background: #164e88 url("./image/tree/relation.svg") center center no-repeat;
   background-repeat: no-repeat;
   background-size: 12px 12px;
   border-radius: 3px;

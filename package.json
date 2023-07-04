@@ -1,11 +1,11 @@
 {
-  "name": "vue-giant-tree",
+  "name": "vue2-ztree",
   "version": "1.0.0",
-  "author": "refined-x [tower1229@foxmail.com]",
-  "main": "./dist/vue-giant-tree.common.js",
+  "author": "kakajun [253495832@qq.com]",
+  "main": "./dist/vue2-ztree.common.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tower1229/Vue-Giant-Tree.git"
+    "url": "git+https://github.com/kakajun/vue2-ztree.git"
   },
   "files": [
     "dist"
@@ -16,16 +16,16 @@
     "ztree"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/tower1229/Vue-Giant-Tree/blob/master/README.md",
+  "homepage": "https://github.com/kakajun/vue2-ztree/blob/master/README.md",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --dest dist --name vue-giant-tree ./src/components/ztree.vue",
+    "build-bundle": "vue-cli-service build --target lib --dest dist --name vue2-ztree ./src/components/ztree.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@ztree/ztree_v3": "^3.5.44"
+    "@ztree/ztree_v3": "^3.5.48"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.6",
@@ -33,10 +33,10 @@
     "@vue/cli-service": "^4.4.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.4.0",
-     "sass": "1.32.13",
+    "sass": "1.32.13",
     "sass-loader": "10.1.1",
     "eslint-plugin-vue": "^6.2.2",
-    "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.11"
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
   }
 }
