@@ -2,25 +2,6 @@
   <div id="app" class="flex-col">
     <h1 class="T">
       vue2-ztree
-      <a
-        href="https://github.com/tower1229/vue2-ztree"
-        target="_blank"
-        titie="vue2-ztree"
-      >
-        <svg
-          class="octicon octicon-mark-github v-align-middle"
-          height="32"
-          viewBox="0 0 16 16"
-          version="1.1"
-          width="16"
-          aria-hidden="true"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-          />
-        </svg>
-      </a>
     </h1>
 
     <div class="wrap flex-1">
@@ -55,7 +36,7 @@ const simpleData = [
   { id: 11, pid: 1, name: "随意勾选 1-1", open: true, iconSkin:"pIcon02"},
   { id: 111, pid: 11, name: "随意勾选 1-1-1" , iconSkin:"icon03"},
   { id: 112, pid: 11, name: "随意勾选 1-1-2" , iconSkin:"icon04"},
-  { id: 12, pid: 1, name: "随意勾选 1-2", open: true, iconSkin:"icon05" },
+  { id: 12, pid: 1, name: "随意勾选 1-2", open: true, iconSkin:"pIcon01" },
   { id: 121, pid: 12, name: "随意勾选 1-2-1" , iconSkin:"icon06"},
   { id: 122, pid: 12, name: "随意勾选 1-2-2" },
   { id: 2, pid: 0, name: "随意勾选 2", checked: true, open: true },
@@ -74,7 +55,7 @@ export default {
   },
   data() {
     return {
-      showIndex: 0,
+      showIndex: 1,
       ztreeObj: null,
       setting: {
         check: {

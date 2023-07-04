@@ -6,8 +6,6 @@
 
 ![logo](https://refined-x.com/asset/vgt-preview.png)
 
-Vue3.x 版本[在这](https://github.com/tower1229/vue2-ztree/tree/vue3)
-
 ## 为什么需要 vue2-ztree
 
 Vue 的数据监听机制决定了在大数据量场景下的渲染性能非常低下，基于 Vue 实现的常规树组件几乎无法胜任上万条数据的高性能渲染，在 IE 浏览器（即便是 IE11）中很容易导致页面卡死甚至浏览器崩溃。
